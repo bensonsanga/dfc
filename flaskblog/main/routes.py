@@ -18,3 +18,7 @@ def about():
 @main.route("/stats")
 def stats():
     return render_template('charts.html', title='stats')
+
+@main.route("/checkout")
+def Checkout():
+    return render_template('checkout.html', title='Checkout')
