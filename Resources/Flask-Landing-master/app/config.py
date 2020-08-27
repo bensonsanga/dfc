@@ -38,3 +38,5 @@ class ProductionConfig(BaseConfig):
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/example'
     DEBUG_TB_ENABLED = False
+
+export APP_SETTINGS="app.config.DevelopmentConfig"

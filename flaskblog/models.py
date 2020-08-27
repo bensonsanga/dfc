@@ -55,3 +55,4 @@ class Result(db.Model):
 
     def __repr__(self):
         return f"Result('{self.studentNumber}', {self.result}','{self.date_posted}')"
+
